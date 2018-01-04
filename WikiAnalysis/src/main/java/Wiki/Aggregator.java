@@ -44,7 +44,7 @@ public class Aggregator extends AbstractActor {
 		FileReader fileReader = new FileReader(file);
 		BufferedReader bufferedReader = new BufferedReader(fileReader);
 		String line = "";
-		while (line != null && totalActors < 2) {
+		while (line != null) {
 			List<String> list = new ArrayList<String>();
 			totalActors++;
 			ActorRef consumer = getContext().actorOf(Props.create(Consumer.class), "consumer" + totalActors);
