@@ -3,4 +3,6 @@ in a map-reduce style.
 
 All data extracted from [Wikipedia dump](https://dumps.wikimedia.org/enwiki/latest/).
 
+(To run, add file "enwiki-latest-all-titles-in-ns0" from dump to class path)
+
 
